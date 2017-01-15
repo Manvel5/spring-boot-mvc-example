@@ -1,0 +1,836 @@
+@media only screen and (max-width: 1400px){
+    /*.slider .immagine{
+        height: 400px;
+    }*/
+    .immagine1 {
+    }
+    .header_caption h1 {
+        font-size: 36px;
+    }
+    .header_caption span {
+        font-size: 21px;
+    }
+    .search_section {
+        border-top-width: 5px; 
+    }
+    .search_section .banner_heading {
+        top: -102px;
+    }
+    .line_search input {
+        text-transform: none;
+    }
+    .search_section h1 {
+        font-size: 25px;
+    }
+    .slider .immagine{
+        height: 400px;
+    }
+    .alert {
+        width: 70%;
+    }
+}
+@media only screen and (min-width: 970px){
+    .immagine1 {
+        height: 400px;
+    }
+    .immagine1 img {
+        position: absolute;
+        height: 576px;
+        width: 772px;
+        max-width: 772px;
+        top: -88px;
+        left: 0px;
+    }
+}
+@media only screen and (max-width: 1180px){
+    .top_description li{
+        width: 33.333%;
+    }
+    .top_description li:nth-child(5):before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        height: 57px;
+        border-right: 1px solid #E3E6EA;
+    }
+    .top_description li:nth-child(1) ,
+    .top_description li:nth-child(2) ,
+    .top_description li:nth-child(3) ,
+    .top_description li:nth-child(4) {
+        width: 25%;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #E3E6EA;
+    }
+}
+@media only screen and (max-width: 1080px){
+    .title_white{
+        font-size: 38px;
+    }
+    .search_section .select {
+        width: 21%;
+        float: left;
+    }
+    .set_input li {
+        width: 48%;
+    }
+    .add_post {
+        padding: 100px 0px 105px 0px;
+    }
+    .short_message {
+        width: 100%;
+        padding: 5px 19px;
+    }
+
+    .side_filter>div, .left_side>div{
+        padding: 7px;
+    }
+    .right_check {
+        float: none;
+        display: block;
+        text-align: left;
+        margin-top: 5px;
+    }
+}
+@media only screen and (max-width: 980px){
+    .header_caption h1 {
+        font-size: 45px;
+    }
+    .header_caption span {
+        font-size: 30px;
+    }
+    .contact_form{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .key_contacts{
+        padding-right: 0;
+    }
+    .center_side{
+        width: 79%;
+    }
+    .right_side{
+        width: 19%;
+    }
+    .single .center_side{
+        width: 60%;
+    }
+    .single .right_side{
+        width: 38%;
+        margin-bottom: 30px;
+    }
+    .slide_single {
+        width: 100%;
+        float: none;
+    }
+    .right_info{
+        padding-top: 20px;
+        width: 100%;
+        float: none;
+    }
+    .short_message {
+        width: 100%;
+        padding: 5px 14px;
+    }
+    .img_upload li {
+        width: 23%;
+    }
+}
+@media only screen and (max-width: 900px){
+    .search_section .select {
+        width: 49.2%;
+        margin: 8px 2px;
+        float: left;
+    }
+    .search_sect{
+        width: 70%;
+    }
+    .search_setings .search_options .select{
+        width: 40%;
+        margin-bottom: 7px;
+    }
+    .search_setings .sub{
+        width: 18%;
+    }
+    .search_setings .search_sect .search_buttons{
+        width: 40%;
+    }
+    .search_setings .search_sect .range{
+        width: 59%;
+    }
+    .search_head{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    .results_seting{
+        width: 100%;
+        text-align: center;
+    }
+    .results_search.browse_cars>div {
+        width: 49%;
+    }
+    .results_search.browse_cars>div:nth-child(3n+1) {
+        margin-left: 2%;
+    }
+    .results_search.browse_cars>div:nth-child(2n+1) {
+        margin-left: 0;
+    }
+    .square_theme,
+    .list_theme {
+        display: none;
+    }
+    .title_head h3.title{
+        width: 50%;
+    }
+    .title_head .right{
+        width: 50%;
+    }
+    .keyContacts li {
+        margin: 0px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .full_width {
+        width: 75% !important;
+    }
+    .main_contact li:last-child {
+        width: 25%;
+    }
+    .add_serv li h1 {
+        font-size: 50px;
+    }
+    .add_serv li h3 {
+        font-size: 24px;
+    }
+    .header_caption{
+        padding-top: 12%;
+    }
+    .user_page .news_side_items li {
+        width: 31.333%;
+        margin: 10px 1%;
+        margin: 1%;
+    }
+    .toTwoRowsIn900 > .rows {
+        float: none;
+        width: 45%;
+        margin: 10px 1.666%;
+        margin: 10px 2%;
+    }
+}
+@media only screen and (max-width: 800px){
+    .search_section .select {
+        width: 48%;
+        margin: 8px 2px;
+    }
+    .page_caption h1 {
+        font-size: 37px;
+    }
+    .page_caption span {
+        margin: 30px 0px 45px;
+        font-size: 18px;
+    }
+    .short_message {
+        padding: 5px 4px;
+    }
+    .short_message textarea {
+        width: 98%;
+    }
+    .add_serv li {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 780px){
+    .results_search.browse_cars>div {
+        width: 100%;
+        margin-left: 0;
+    }
+    .results_search.browse_cars>div:nth-child(3n+1) {
+        margin-left: 0;
+    }
+    .left_side{
+        width: 40%;
+    }
+    .center_side{
+        width: 72%;
+    }
+    .search_results .center_side{
+        width: 58%;
+    }
+    .right_side{
+        width: 26%;
+    }
+    h2.title, 
+    .single_title .price{
+        font-size: 30px;
+    }
+    /* Force table to not be like tables anymore */
+    table, thead, tbody, th, td, tr { 
+        display: block; 
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr { 
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    .show_mobile {
+        box-shadow: 0px 11px 32px -18px #000;
+        position: relative;
+    }
+    .saved_table tr {
+        height: 100%;
+        line-height: 100%;
+        padding: 5px;
+    }
+    .align_left {
+        text-align: center !important;
+        padding-left: 0px;
+    }
+    .saved_table td,
+    .saved_table th {
+        width: 100%;
+        padding: 5px;
+    }
+    .saved_table td { 
+        border: none;
+        position: relative;
+        padding-left: 0%; 
+    }
+    .saved_table td:before { 
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%; 
+        padding-right: 10px; 
+        white-space: nowrap;
+    }
+    .short_message {
+        padding: 5px 8px;
+    }
+    .short_message textarea {
+        width: 98%;
+    }
+    .add_form .select {
+        width: 46%;
+        display: inline-block;
+        border: 1px solid #ddd;
+        margin: 10px;
+    }
+    .user_page .news_side_items li {
+        width: 48%;
+    }
+    .compare_table .feature {
+        display: none;
+    }
+    .compare_table .product {
+        width: 50%;
+    }
+    .border-left {
+        border-left: 1px solid #e6e6e6;
+    }
+}
+@media only screen and (max-width: 700px){
+    .header_menu ul{
+        display: none;
+        position: absolute;
+        z-index: 55;
+        width: 100%;
+        right: 0;
+        left: 0;
+        top: 54px;
+    }
+    .header_menu ul li{
+        padding: 0;
+        display: block;
+        float: none;
+        text-align: center;
+        margin-right: 0;
+    }
+    .header_menu ul li a{
+        display: block;
+        padding: 5px 0;
+        background: rgba(77,77,77,0.9);
+    }
+    .header_menu ul li a:hover {
+        color: #fff;
+        background: rgb(238, 163, 3);
+    }
+    .drawspan{
+        display: block;
+    }
+    .drop_info {
+        top: 40px !important;
+    }
+    .drop_info li a:hover i {
+        color: #fff;
+    }
+    .drop_info:before {
+        top: -18px;
+        right: 0px;
+        left: 0px;
+        text-align: center;
+    }
+    .footer_sections>div{
+        width: 49%;
+    }
+    .footer_sections>div:nth-child(2){
+        text-align: right;
+    }
+    .footer_sections>div:last-child{
+        text-align: center;
+        width: 100%;
+        margin: 20px auto 0 auto;
+    }
+    .Banner-Search{
+        padding: 0;
+    }
+    .search_sect{
+        width: 100%;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .sect_info{
+        font-size: 20px;
+    }
+    .browse_cars>div {
+        width: 49%;
+    }
+    .browse_cars>div:nth-child(3n+1) {
+        margin-left: 2%;
+    }
+    .browse_cars>div:nth-child(2n+1) {
+        margin-left: 0;
+    }
+    .single .center_side{
+        width: 100%;
+    }
+    .single .right_side{
+        width: 100%;
+    }
+    .top_description {
+        display: none;
+    }
+    .copyright {
+        margin-top: 15px;
+    }
+    .threeRows {
+        text-align: left;
+    }
+    .threeRows > .rows ,
+    .twoRows > .rows {
+        float: none;
+        width: 45%;
+        margin: 10px 1.666%;
+        margin: 10px 2%;
+    }
+}
+@media only screen and (max-width: 680px){
+    .search_setings .search_options .select{
+        width: 49%;
+        margin-bottom: 7px;
+        margin-right: 2%;
+    }
+    .search_setings .sub{
+        width: 49%;
+    }
+    .search_setings .search_sect .search_buttons{
+        width: 49%;
+    }
+    .search_setings .search_sect .range{
+        width: 49%;
+        margin-left: 2%;
+    }
+    .search_setings .search_options .select:nth-child(2n+2){
+        margin-right: 0;
+    }
+    .header_caption h1 {
+        font-size: 35px;
+    }
+    .header_caption span {
+        font-size: 25px;
+    }
+    .slider .immagine{
+        height: 300px;
+    }
+    .search_section{
+        position: relative;
+    }
+    .none_desctop{
+        display: block;
+    }
+    .search_section{
+        border-top: 10px solid rgba(238, 163, 3 , 1); 
+    }
+}
+@media only screen and (max-width: 600px){
+    .search_section h1 {
+        width: 70%;
+    }
+    .search_form {
+        margin: 30px 0px 0px;
+    }
+    .search_section .select {
+        width: 100%;
+    }
+    .slide-driver{
+        display: none;
+    }
+    .sezione.slider,
+    .sezione.slick-slider{
+        width: 100%;
+    }
+    .theme_buttons .select{
+        margin-bottom: 7px;
+    }
+    .center_side{
+        width: 100%;
+    }
+    .right_side{
+        width: 100%;
+        margin: 40px 0 0 0;
+    }
+    .more_cars>div{
+        width: 49%;
+        float: left;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -khtml-box-sizing: border-box;
+    }
+    .more_cars>div:first-child{
+        margin-top: 7px;
+    }
+    .more_cars>div:nth-child(2n+1){
+        margin-right: 2%;
+    }
+    .right_info .list_info {
+        -o-column-count: 1;
+        -o-column-gap: 20px;
+        -ms-column-count: 1;
+        -ms-column-gap: 20px;
+        -moz-column-count: 1;
+        -moz-column-gap: 20px;
+        -webkit-column-count: 1;
+        -webkit-column-gap: 20px;
+        column-count: 1;
+        column-gap: 20px;
+    }
+    .full_width {
+        width: 50% !important;
+    }
+    .main_contact li:last-child {
+        width: 50%;
+    }
+    .set_input li {
+        width: 97%;
+    }
+    .add_form .select {
+        width: 95%;
+        display: inline-block;
+        border: 1px solid #ddd;
+        margin: 9px;
+    }
+    .img_upload li {
+        width: 48%;
+    }
+    .search_section h1, .add_form h1{
+        width: 70%;
+    }
+    .rows > p{
+        margin-top: 0;
+    }
+    .add_form fieldset{
+        padding: 0;
+    }
+    .add_form fieldset legend{
+        font-size: 25px;
+        padding: 15px 2px;
+        width: 100%;
+        display: block;
+        border-bottom: 2px solid #eea303;
+    }
+    .search_form .line_search {
+        text-align: center;
+        float: none;
+    }
+    .search_form .submit {
+        margin-top: 7px;
+    }
+    .search_section .banner_heading {
+        top: -82px;
+    }
+    header {
+        background: transparent;
+    }
+    .header_caption h1,.header_caption span {
+        display: none;
+    }
+    .slider .immagine{
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .user_page .news_side_items li {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .car_type li {
+        width: 32.33%;
+    }
+    .title_white{
+        font-size: 30px;
+    }
+    .line_search .select{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .line_search .select:first-child{
+        margin: 0;
+    }
+    .line_search{
+        padding: 0;
+    }
+    .browse_cars>div {
+        width: 100%;
+        margin-left: 0;
+    }
+    .browse_cars>div:nth-child(3n+1) {
+        margin-left: 0;
+    }
+    .contact_form{
+        width: 100%;
+    }
+    .key_contacts{
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .search_setings .search_options .select{
+        width: 100%;
+        margin-right: 0;
+    }
+    .search_options .sub{
+        width: 100%;
+    }
+    .search_setings .search_sect .search_buttons{
+        width: 100%;
+        margin-bottom: 7px;
+    }
+    .search_setings .search_sect .range{
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 7px;
+    }
+    .search_setings .search_options{
+        padding-top: 0;
+    }
+    .left_side {
+        width: 100%;
+        margin-right: 0;
+    }
+    .center_side{
+        width: 100%;
+    }
+    .search_results .center_side{
+        width: 100%;
+    }
+    .left_side .title_middle{
+        cursor: pointer;
+    }
+    .left_side .check_style{
+        display: none;
+    }
+    .left_side>div:hover .check_style{
+        display: block;
+    }
+    .left_side>div{
+        padding: 10px;
+    }
+    .single_title .left,
+    .single_title .right{
+        width: 100%;
+    }
+    .title_head h3.title{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    .title_head .right{
+        width: 100%;
+        text-align: center;
+    }
+    .news_list .immagine,.immagine1{
+        width: 100%;
+    }
+    .info_right{
+        width: 100%;
+    }
+    .main_contact li {
+        width: 100%;
+    }
+    .main_contact li:last-child {
+        width: 100%;
+    }
+    .full_width {
+        width: 100% !important;
+    }
+    .contact_form .submit {
+        height: 50px;
+        line-height: 27px;
+        font-size: 20px;
+    }
+    .small_txt span {
+        display: none;
+    }
+    .tab-links a span {
+        display: none;
+    }
+    .tab-links a i {
+        display: block;
+    }
+    .img_upload li {
+        width: 95%;
+    }
+    #uploadFile {
+        width: 60%;
+    }
+    .fileUpload {
+        width: 40%;
+    }
+    .add_post h1{
+        font-size: 34px;
+    }
+    .add_post{
+        padding: 20px 0;
+    }
+    .embed_iframe iframe{
+        height: 350px;
+    }
+    .threeRows > .rows ,
+    .twoRows > .rows {
+        width: 96%;
+        margin: 10px 2%;
+    }
+    .alert {
+        width: 90%;
+    } 
+}
+@media only screen and (max-width: 400px){
+    .footer_sections>div,
+    .footer_sections>div:nth-child(2){
+        width: 100%;
+        text-align: center;
+        margin: 20px auto;
+    }
+    .footer_sections>div:first-child{
+        margin: 0 auto 20px auto;
+    }
+    .footer_sections>div:last-child{
+        margin: 20px auto 0 auto;
+    }
+    #map{
+        height: 280px;
+    }
+    h2.title, .single_title .price{
+        font-size: 25px;
+    }
+    .search_section .banner_heading {
+        top: -89px;
+    }
+    .search_section .banner_heading h1 {
+        width: 83%;
+        font-size: 23px;
+        padding: 10px 0%;
+    }
+    .header_caption h1 {
+        font-size: 34px;
+        margin-top: 10px;
+    }
+    .header_caption span {
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width: 330px){
+    .header_caption h1 {
+        font-size: 32px;
+        margin-top: 10px;
+    }
+    .header_caption span {
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width: 300px){
+    .more_cars>div{
+        width: 100%;
+        float: none;
+    }
+    .more_cars>div:nth-child(2n+1){
+        border-left: 0;
+    }
+    .pagination li a{
+        width: 15px;
+    }
+    .pagination .prev a, .pagination .prev span ,
+    .pagination .next a, .pagination .next span{
+        width: 17px;
+    }
+    .header_caption h1{
+        font-size: 25px;
+    }
+    .header_caption span{
+        font-size: 20px;
+    }
+    .header_caption{
+        padding-top: 70px;
+    }
+    .embed_iframe iframe{
+        height: 250px;
+    }
+    .fav_set .check_style input[type=checkbox] + .check_text{
+        margin: 0 10px;
+    }
+    .remove_fav{
+        height: 34px;
+        line-height: 34px;
+    }
+    .single .list_line.soc ,
+    .single .soc_span{
+        float: none;
+    }
+    .owner .user_info li .list_left , 
+    .right_info .list_info li>.list_left {
+        width: 100%;
+        float: none;
+        display: block;
+        text-align: center;
+        max-width: 100%;
+        padding: 0;
+    }
+    .owner .user_info li .list_right ,
+    .right_info .list_info li>.list_right {
+        width: 100%;
+        text-align: center;
+        float: none;
+        display: block;
+        max-width: 100%;
+        padding: 0;
+        font-size: 18px;
+        color: rgb(94, 94, 94);
+        font-weight: 600;
+    }
+    .mob_txtC{
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 480px){
+    ..small_txt span {
+        display: inline-block;
+    }
+
+}

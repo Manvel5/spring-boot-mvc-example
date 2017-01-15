@@ -18,6 +18,6 @@ public class ApplicationSecurity extends WebSecurityConfigurerAdapter {
                 .failureUrl("/login?error").and().logout()
                 .logoutRequestMatcher(new AntPathRequestMatcher("/logout")).and()
                 .exceptionHandling().accessDeniedPage("/access?error");
-        // @formatter:on
+        // @formatt
     }
 }
